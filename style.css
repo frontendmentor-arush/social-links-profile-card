@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+}
+
+.card-body {
+  background-color: hsl(0, 0%, 12%);
+  width: 500px;
+  border-radius: 10px;
+  /* margin: 20px auto; */
+}
+
+img {
+  border-radius: 50%;
+  padding: 10px;
+  width: 100px;
+}
+
+ul {
+  list-style: none;
+}
